@@ -181,7 +181,7 @@ body {
     font-family: 'Geostar Fill', cursive;
 }
 
-@media (min-width: 100px) and (max-width: 767px) {
+@media (min-width: 100px) and (max-width: 1024px) {
     .header {
         
     }
@@ -218,6 +218,8 @@ body {
         margin: 15px auto;
     }
 }
+/*
 @media (min-width: 768px) and (max-width: 1024px) {
 
 }
+*/
