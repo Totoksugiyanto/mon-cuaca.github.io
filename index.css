@@ -181,7 +181,7 @@ body {
     font-family: 'Geostar Fill', cursive;
 }
 
-@media (min-width: 100px) and (max-width: 1024px) {
+@media (min-width: 100px) and (max-width: 767px) {
     .header {
         
     }
@@ -201,6 +201,10 @@ body {
     .section .images {
         width: 100%;
     }
+    .section .images div {
+        width: 280px;
+        height: 280px;
+    }
     .section .cdatas {
         width: 100%;
     }
@@ -218,8 +222,6 @@ body {
         margin: 15px auto;
     }
 }
-/*
 @media (min-width: 768px) and (max-width: 1024px) {
 
 }
-*/
