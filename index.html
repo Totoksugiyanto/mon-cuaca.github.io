@@ -94,6 +94,9 @@
                 if (sensor[1] < 40) {$('.section .images div').css('background-image', 'url("panas.png")');}
                 else if (sensor[1] >= 40 && sensor[1] < 100) {$('.section .images div').css('background-image', 'url("mendung-ringan.png")');}
                 else if (sensor[1] >= 100) {$('.section .images div').css('background-image', 'url("mendung.png")');}
+		else if (sensor[0] >= 350 && sensor[0] < 450) {$('.section .images div').css('background-image', 'url("gerimis.png")');}
+		else if (sensor[0] >= 450 && sensor[0] < 650) {$('.section .images div').css('background-image', 'url("hujan-deras.png")');}
+		else if (sensor[0] >= 650) {$('.section .images div').css('background-image', 'url("panas.png")');}
                 /*
                 else if (sensor[0] == 3) {$('.section .images div').css('background-image', 'url("gerimis.png")');}
                 else if (sensor[0] == 4) {$('.section .images div').css('background-image', 'url("hujan-deras.png")');}
