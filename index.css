@@ -183,17 +183,33 @@ body {
 
 @media (min-width: 100px) and (max-width: 767px) {
     .header {
-        
+        flex-flow: row wrap;
+        height: 160px;
+        justify-content: center;
     }
     .header .icon {
-        width: 45px;
-        height: 45px;
+        width: 65px;
+        height: 65px;
+        margin: 15px 10px;
+    }
+    .header .logos {
+        width: 100%;
     }
     .header .logos span {
         font-size: 18pt;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: -75px 0 0 0;
     }
     .header .logos tspan {
         font-size: 10pt;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: -165px 0 0 0;
     }
     .section {
         flex-flow: row wrap;
@@ -204,6 +220,8 @@ body {
     .section .images div {
         width: 220px;
         height: 220px;
+        background-repeat: no-repeat;
+        background-size: 220px 220px;
     }
     .section .cdatas {
         width: 100%;
